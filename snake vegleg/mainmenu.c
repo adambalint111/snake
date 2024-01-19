@@ -30,7 +30,7 @@ Menu mainMenu(SDL_Renderer *renderer)
     strcpy(text,"2 -> TwoPlayer mode!");
     place.y=350;
     write(renderer,sub,text,white,place);
-    strcpy(text,"H -> Highescores!");
+    strcpy(text,"H -> Highscores!");
     place.y=400;
     write(renderer,sub,text,white,place);
     strcpy(text,"ESC -> Quit!");
